@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;
+	border: 0;
+	width: 236px;
+}
+.clearfix:after{
+	content: ".";
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	display: block;
+}
+ul{
+	margin: 0 auto;
+	position: relative;
+}
+li{
+	width: 236px;
+	position: absolute;
+	transition: 0.5s;
+}
+.pic{
+	margin-top: 10px;
+}
+
